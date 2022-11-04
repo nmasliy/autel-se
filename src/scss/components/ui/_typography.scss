@@ -1,0 +1,73 @@
+.section-title {
+  margin-bottom: 22px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: $g1-color;
+
+  span {
+    text-transform: none;
+  }
+}
+
+.section-subtitle {
+  font-size: 20px;
+  line-height: 1.4;
+  color: $g1-color;
+}
+
+.block-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 32px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.color-accent {
+  color: $accent-color;
+}
+
+.color-white {
+  color: $light-color;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.section-banner {
+  position: relative;
+  padding: 160px 0 150px;
+}
+
+.banner {
+  .container {
+    position: relative;
+  }
+
+  &__inner {
+    position: absolute;
+    left: -200px;
+    top: -110px;
+    border: 1px solid $g4-color;
+    border-radius: 10px;
+    padding: 13px 13px 13px 100px;
+    background: linear-gradient(270deg, #131010 0%, rgba(19, 16, 16, 0%) 87.41%);
+  }
+
+  &__title {
+    margin-bottom: 2px;
+    font-family: "Oswald", sans-serif;
+    font-size: 26px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: $accent-color;
+  }
+}

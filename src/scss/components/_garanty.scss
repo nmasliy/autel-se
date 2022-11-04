@@ -1,0 +1,61 @@
+.garanty {
+  position: relative;
+  overflow: hidden;
+  background-color: #141111;
+
+  &::before {
+    @include bg-circle(368px);
+
+    left: -138px;
+    bottom: -74px;
+  }
+
+  &__inner {
+    margin: 0 auto;
+  }
+
+  &__subtitle {
+    margin: 0 auto 50px;
+    max-width: 500px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 28px;
+  }
+
+  &__item {
+    border: 1px solid $g2-color;
+    border-radius: 10px;
+    padding: 27px;
+    text-align: center;
+    color: $g1-color;
+
+    p {
+      font-size: 14px;
+      line-height: 1.4;
+    }
+  }
+
+  &__img {
+    margin-bottom: 20px;
+
+    picture {
+      display: flex;
+    }
+
+    img {
+      border-radius: 10px;
+      max-height: 164px;
+    }
+  }
+
+  &__name {
+    margin-bottom: 13px;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    line-height: 1.3;
+    text-transform: uppercase;
+  }
+}
