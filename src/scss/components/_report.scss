@@ -28,9 +28,6 @@
     }
   }
 
-  &__content {
-  }
-
   &__content-title {
     margin-bottom: 20px;
   }
@@ -46,6 +43,7 @@
     align-items: center;
 
     p {
+      font-size: 14px;
       line-height: 1.4;
     }
   }
@@ -54,6 +52,7 @@
     @include circle(40px, transparent);
     @include flex-all-center;
 
+    flex-shrink: 0;
     margin-right: 13px;
     border: 1px solid $g2-color;
   }

@@ -30,10 +30,6 @@
     max-width: 560px;
   }
 
-  &__list {
-
-  }
-
   &__item {
     @include mb(14px);
 
@@ -47,6 +43,7 @@
     @include circle(50px, transparent);
     @include flex-all-center;
 
+    flex-shrink: 0;
     border: 1px solid $g2-color;
   }
 
