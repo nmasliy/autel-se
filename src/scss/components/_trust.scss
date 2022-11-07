@@ -60,15 +60,15 @@
     text-transform: uppercase;
     color: $g1-color;
 
-    span {
-      text-transform: none;
-    }
-
     &::before {
-      display: block;
       content: "0" counter(trust) "/ ";
+      display: block;
       margin-right: 4px;
       color: $accent-color;
+    }
+
+    span {
+      text-transform: none;
     }
   }
 }
