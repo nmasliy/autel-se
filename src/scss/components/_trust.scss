@@ -60,9 +60,13 @@
     text-transform: uppercase;
     color: $g1-color;
 
+    span {
+      text-transform: none;
+    }
+
     &::before {
-      content: "0" counter(trust) "/ ";
       display: block;
+      content: "0" counter(trust) "/ ";
       margin-right: 4px;
       color: $accent-color;
     }
