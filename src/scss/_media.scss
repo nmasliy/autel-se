@@ -801,7 +801,7 @@
 
     &__title {
       margin: 0 auto 16px;
-      max-width: 285px;
+      max-width: 505px;
     }
 
     &__content {
@@ -1021,6 +1021,7 @@
   }
 
   .diagnostic {
+    padding-top: 30px;
     &__text {
       margin-left: 12px;
       font-size: 18px;
@@ -1103,6 +1104,10 @@
     &__box {
       display: block;
     }
+  }
+
+  .functions {
+    padding-bottom: 30px;
   }
 
   .player-icon {
@@ -2873,6 +2878,20 @@
     }
   }
 
+  .report {
+    &__qr {
+      width: calc(50% - 6px);
+
+      p {
+        font-size: 13px;
+      }
+
+      &:last-child {
+        margin-left: 12px;
+      }
+    }
+  }
+
   .recharge {
     &__item {
       padding-top: 34px;
@@ -2889,12 +2908,6 @@
     &__buttons {
       justify-content: space-between;
       gap: 10px 5px;
-    }
-  }
-
-  .report {
-    &__qr {
-      width: calc(50% - 11px);
     }
   }
 
